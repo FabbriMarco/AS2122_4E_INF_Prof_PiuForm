@@ -4,18 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AS2122_4E_INF_Prof_PiuForm
+namespace AS2122_4E_INF_Prof_PiauForm
 {
     class Contatto
     {
-        public string Nome { get; }
+        public string Name { get; }
         public string Indirizzo { get; }
         public string Citta { get; }
         public string Telefono { get; }
 
         public Contatto (string nome, string indirizzo, string citta, string telefono)
         {
-            this.Nome = nome;
+            this.Name = nome;
             this.Indirizzo = Indirizzo;
             this.Citta = Citta;
             this.Telefono = Telefono;
@@ -23,7 +23,7 @@ namespace AS2122_4E_INF_Prof_PiuForm
 
         public string Visualizzati()
         {
-            return $"{Nome}, {Citta}";
+            return $"{Name}, {Citta}";
         }
     }
 }
